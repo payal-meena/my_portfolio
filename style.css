@@ -59,14 +59,16 @@
       }
 
       .hero-section {
-        height: 100vh;
+        /* height: 100vh; */
         width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         text-align: center;
-        padding: 0 20px;
+        /* padding: 0 20px; */
+        margin-top: 5rem;
+        margin-bottom: 50px;
       }
 
       .profile-pic {
@@ -84,7 +86,6 @@
       }
 
       .hero-section h1 {
-        /* font-size: clamp(2.5rem, 6vw, 4.5rem); */
         margin-bottom: 0.5rem;
         font-weight: 700;
       }
@@ -114,10 +115,11 @@
 
       section {
         padding: 80px 0;
-        min-height: 100vh;
+        min-height: 10vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
+        
       }
 
       section h2 {
@@ -132,6 +134,8 @@
         flex-direction: column;
         gap: 2rem;
         text-align: center;
+        margin-bottom: 50px;
+
 
       }
 
@@ -146,6 +150,7 @@
         grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
         gap: 1.5rem;
         margin-top: 2rem;
+        margin-bottom: 50px;
       }
 
       .skill-card {
@@ -165,6 +170,7 @@
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
         gap: 2rem;
         margin-top: 2rem;
+        margin-bottom: 50px;
       }
 
       .project-card {
@@ -208,18 +214,12 @@
         box-shadow: 0 4px 6px rgba(0,0,0,0.1);
         margin-bottom: 2rem;
         text-align: center;
+        margin-bottom: 50px;
       }
 
       .education-card h3 {
         color: var(--accent-color);
         margin-top: 0;
-      }
-      .contact-form {
-        max-width: 600px;
-        margin: 0 auto;
-        display: flex;
-        flex-direction: column;
-        gap: 1rem;
       }
 
     .resume-card {
@@ -230,10 +230,12 @@
       max-width: 400px;
       margin: 0 auto;
       text-align: center;
+      margin-bottom: 50px;
+
     }
 
     .resume-card .icon-container {
-      color: #e53e3e; /* Red color for the PDF icon */
+      color: #e53e3e; 
       font-size: 4rem;
       margin-bottom: 1rem;
     }
@@ -255,7 +257,7 @@
       gap: 0.5rem;
       padding: 12px 24px;
       border-radius: 9999px;
-      background-color: #2dd4bf; /* A blue color similar to the image */
+      background-color: #2dd4bf; 
       color: #111827;
       text-decoration: none;
       font-weight: bold;
@@ -266,6 +268,13 @@
       background-color: #31c4b0e1;
     }
     
+      .contact-form {
+        max-width: 600px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+      }
 
     .contact-content {
       display: flex;
