@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Payal Meena — Student Portfolio</title>
+    <meta
+      name="description"
+      content="Professional student portfolio — projects, skills, contact."
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="brand">
+          <div class="avatar">PM</div>
+          <div>
+            <div style="font-weight: 700">Payal Meena</div>
+            <div class="muted" style="font-size: 13px">
+              Aspiring Full Stack Developer — BCA Student
+            </div>
+          </div>
+        </div>
+
+        <div class="hamburger" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <!--  nav -->
+        <nav id="navbar">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#education">Education</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </header>
+      <main>
+        <section class="hero">
+          <div class="hero-left card intro">
+            <h1 class="fade-slide">
+              Hi — I'm Payal, passionate about Web Development.
+            </h1>
+            <p class="fade-slide" style="animation-delay: 0.3s">
+              I am a BCA student at Sant Singaji Institute of Science and
+              Management with experience in Core Java, HTML, CSS, JavaScript,
+              Bootstrap, and MySQL. Currently learning React and MongoDB. I
+              build small projects to learn full-stack development.
+            </p>
+            <div class="cta fade-slide" style="animation-delay: 0.9s">
+              <a class="btn btn-primary" href="#projects">View Projects</a>
+              <a class="btn" href="Files/payal-meena (1).pdf" download
+                >Download Resume</a
+              >
+            </div>
+
+            <div class="stats fade-slide" style="animation-delay: 1.2s">
+              <div class="stat">
+                <b>3+</b><span class="muted">Projects</span>
+              </div>
+              <div class="stat">
+                <b>2026</b><span class="muted">Grad Year</span>
+              </div>
+            </div>
+
+            <div class="socials fade-slide" style="animation-delay: 1.5s">
+              <a href="mailto:payalm.bca2023@ssism.org" class="btn">📧 Email</a>
+              <a
+                href="https://github.com/payal-meena"
+                class="btn"
+                target="_blank"
+                >💻 GitHub</a
+              >
+              <a
+                href="https://www.linkedin.com/in/payal-meena17"
+                target="_blank"
+                class="btn"
+                >🔗 LinkedIn</a
+              >
+            </div>
+          </div>
+          <div class="hero-right">
+            <img src="Files/Profile.jpg" alt="Payal Meena" />
+          </div>
+        </section>
+
+        <section id="about"
+          class="card fade-slide"
+          style="animation-delay: 0.2s"
+        >
+          <h2 class="fade-slide">About Me</h2>
+          <p class="muted fade-slide" style="animation-delay: 0.4s">
+            I’m a student passionate about building web applications and
+            Java-based projects. I learn best by creating—whether it’s a hotel
+            room booking system, form validation, or React-based apps.
+            Currently, I’m exploring the MERN stack, MongoDB, and GitHub to grow
+            into a skilled full-stack developer. My goal is to turn ideas into
+            real projects and improve with every step.
+          </p>
+        </section>
+
+        <section id="skills" class="fade-slide">
+          <h2 class="fade-slide">Skills</h2>
+          <div class="grid-4">
+            <div class="skill fade-slide" style="animation-delay: 0.2s">
+              <strong>Programming</strong>
+              <div class="muted">Java, JavaScript</div>
+            </div>
+            <div class="skill fade-slide" style="animation-delay: 0.4s">
+              <strong>Web</strong>
+              <div class="muted">
+                HTML, CSS, Bootstrap, React (learning), Tailwind CSS
+              </div>
+            </div>
+            <div class="skill fade-slide" style="animation-delay: 0.6s">
+              <strong>Database</strong>
+              <div class="muted">MySQL, MongoDB (learning)</div>
+            </div>
+            <div class="skill fade-slide" style="animation-delay: 0.8s">
+              <strong>Tools</strong>
+              <div class="muted">VS Code, Git, GitHub, Postman, Vercel</div>
+            </div>
+          </div>
+        </section>
+
+        <section id="projects">
+          <h2 class="fade-slide">Projects</h2>
+          <div class="projects">
+            <article class="proj fade-slide" style="animation-delay: 0.2s">
+              <h3>Hotel Room Booking System</h3>
+              <p>
+                A Java and MySQL based application for managing hotel room
+                reservations. Features include room availability check, booking,
+                cancellation, and guest information management with a
+                user-friendly interface.
+              </p>
+              <div class="tags">
+                <span class="tag">Java</span><span class="tag">MySQL</span
+                ><span class="tag">OOP</span>
+              </div>
+              <div style="margin-top: 10px">
+                <a
+                  href="https://github.com/payal-meena/Hotel-Room-Booking-System"
+                  >View Repo</a
+                >
+              </div>
+            </article>
+
+            <article class="proj fade-slide" style="animation-delay: 0.4s">
+              <h3>IMDB Clone</h3>
+              <p>
+                A movie database web application built with React and OMDb API.
+                Users can search movies, view details like poster, genre,
+                ratings, and plot with a responsive UI.
+              </p>
+              <div class="tags">
+                <span class="tag">React</span><span class="tag">API</span
+                ><span class="tag">Responsive</span>
+              </div>
+              <div style="margin-top: 10px">
+                <a href="https://imdb-clone-hazel.vercel.app/">View Live</a>
+              </div>
+            </article>
+
+            <article class="proj fade-slide" style="animation-delay: 0.6s">
+              <h3>Form Validation</h3>
+              <p>
+                Interactive signup page with real-time client-side validation
+                using JavaScript and Bootstrap styles.
+              </p>
+              <div class="tags">
+                <span class="tag">HTML</span><span class="tag">JS</span
+                ><span class="tag">Bootstrap</span>
+              </div>
+              <div style="margin-top: 10px">
+                <a href="https://github.com/payal-meena/form_validation"
+                  >See Code</a
+                >
+              </div>
+            </article>
+
+            <article class="proj fade-slide" style="animation-delay: 0.8s">
+              <h3>Website Template</h3>
+              <p>
+                A responsive and customizable website template built with HTML,
+                CSS, and JavaScript. Designed with a clean layout and modern UI
+                to be used as a starting point for personal or business
+                websites.
+              </p>
+              <div class="tags">
+                <span class="tag">HTML</span><span class="tag">CSS</span
+                ><span class="tag">JS</span>
+                <span class="tag">Bootstrap</span>
+              </div>
+              <div style="margin-top: 10px">
+                <a href="https://payal-meena.github.io/Website_Template/"
+                  >Visit</a
+                >
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section id="education"
+          class="card fade-slide"
+          style="animation-delay: 0.2s"
+        >
+          <h2 class="fade-slide">Education</h2>
+          <div class="row fade-slide" style="animation-delay: 0.4s">
+            <div>
+              <strong
+                >BCA — Sant Singaji Institute of Science and Managemet
+                Sandalpur</strong
+              >
+              <div class="muted">2023 — 2026</div>
+            </div>
+          </div>
+        </section>
+
+        <section id="contact"  class="card fade-slide" style="animation-delay: 0.2s;">
+          <h2 class="fade-slide">Contact</h2>
+          <p class="muted fade-slide" style="animation-delay: 0.4s;">
+            Want to collaborate or hire me for an internship or job? Send a
+            message.
+          </p>
+          <form class="fade-slide" style="display: grid; gap: 10px; margin-top: 10px; animation-delay: 0.6s;" onsubmit="handleSubmit(event)"
+          >
+            <input
+              required
+              placeholder="Your name"
+              id="name"
+              style="
+                padding: 12px;
+                border-radius: 10px;
+                border: 1px solid rgba(255, 255, 255, 0.03);
+                background: transparent;
+                color: inherit;
+              "
+            />
+            <input
+              required
+              type="email"
+              placeholder="Your email"
+              id="email"
+              style="
+                padding: 12px;
+                border-radius: 10px;
+                border: 1px solid rgba(255, 255, 255, 0.03);
+                background: transparent;
+                color: inherit;
+              "
+            />
+            <textarea
+              required
+              placeholder="Message"
+              id="message"
+              rows="5"
+              style="
+                padding: 12px;
+                border-radius: 10px;
+                border: 1px solid rgba(255, 255, 255, 0.03);
+                background: transparent;
+                color: inherit;
+              "
+            ></textarea>
+            <div style="display: flex; gap: 8px">
+              <button class="btn btn-primary" type="submit">
+                Send Message
+              </button>
+              <button class="btn" type="reset">Reset</button>
+            </div>
+          </form>
+        </section>
+
+        <footer>Built with ❤️ — <span class="muted">Payal Meena</span></footer>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
