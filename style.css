@@ -29,6 +29,7 @@
  a {
      color: var(--accent);
      text-decoration: none;
+     margin-right: 10px;
  }
 
  a:hover {
@@ -229,6 +230,21 @@
      gap: 15px;
 
  }
+
+ #education .row {
+  margin-bottom: 20px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+
+#education .row:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+}
+#education .row strong {
+  display: block;
+  margin-bottom: 4px;
+}
 
  .skill {
      background: rgba(255, 255, 255, 0.02);
